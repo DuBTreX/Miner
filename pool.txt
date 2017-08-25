@@ -8,11 +8,14 @@ flags --cl-global-work 8192 --farm-recheck 200
 # ------------------------------------------------------
 maxgputemp 85
 globalfan 90
-# globalcore 1400
-# globalmem 4800
+globalcore 1400
+globalmem 4800
 # globalpowertune 20
 # autoreboot false
 # ------------------------------------------------------
 # globalminer:		set global miner (ethminer, sgminer-gm, claymore, claymore-zcash, optiminer-zcash, sgminer-gm-xmr, ewbf-zcash) ewbf-zcash is for zcash on nvidia
 # globalpowertune:      set the power tune setting of all GPUs (r9 290/x/390/x should use 50; RX should use 4-7 depending on overclock; for nvidia, this is watt limit)
 # ------------------------------------------------------
+# Use the folowing 2 commands to apply the changes
+# putconf && restart-proxy
+# putconf && ethos-overclock
