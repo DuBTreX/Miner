@@ -3,10 +3,5 @@ stratumproxy enabled
 proxywallet 0x376CfF518A91bdF7608014189f8509a9f71BD27f
 proxypool1 eu1.ethermine.org:4444
 proxypool2 eu1.ethpool.org:3333
-flags --cl-global-work 8192 --farm-recheck 200
+flags --cl-global-work 8192 --farm-recheck 500
 globalfan 85
-globalcore 1000
-globalmem 1250
-globalfan 90
-globalpowertune 20
-autoreboot false
