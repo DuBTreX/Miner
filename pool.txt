@@ -5,3 +5,8 @@ proxypool1 eu1.ethermine.org:4444
 proxypool2 eu1.ethpool.org:3333
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 85
+globalcore 1000
+globalmem 1250
+globalfan 90
+globalpowertune 20
+autoreboot false
