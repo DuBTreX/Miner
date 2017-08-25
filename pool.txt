@@ -1,13 +1,18 @@
+globalminer ethminer
 loc f5e382 Mine#01
-maxgputemp 85
 stratumproxy enabled
 proxywallet 0x376CfF518A91bdF7608014189f8509a9f71BD27f
 proxypool1 eu1.ethermine.org:4444
 proxypool2 eu1.ethpool.org:3333
-flags --cl-global-work 8192 --farm-recheck 500
-globalfan 85
-
-# globalcore 1400 
+flags --cl-global-work 8192 --farm-recheck 200
+# ------------------------------------------------------
+maxgputemp 85
+globalfan 90
+# globalcore 1400
 # globalmem 4800
 # globalpowertune 20
 # autoreboot false
+# ------------------------------------------------------
+# globalminer:		set global miner (ethminer, sgminer-gm, claymore, claymore-zcash, optiminer-zcash, sgminer-gm-xmr, ewbf-zcash) ewbf-zcash is for zcash on nvidia
+# globalpowertune:      set the power tune setting of all GPUs (r9 290/x/390/x should use 50; RX should use 4-7 depending on overclock; for nvidia, this is watt limit)
+# ------------------------------------------------------
