@@ -1,12 +1,10 @@
 globalminer ethminer
 loc f5e382 Mine#01
 stratumproxy enabled
-proxywallet 0x376CfF518A91bdF7608014189f8509a9f71BD27f
+proxywallet 0xcB9Ad7A1115AC43078c631ad77DDA91304636D80
 proxypool1 eu1.ethermine.org:4444
 proxypool2 eu1.ethpool.org:3333
 flags --cl-global-work 8192 --farm-recheck 200
-# ------------------------------------------------------
-#following is for the NVIDIA GTX 1060
 # ------------------------------------------------------
 maxgputemp 85
 globalfan 90
